@@ -1,0 +1,21 @@
+# Залежності
+node_modules/
+
+# Папка з результатами збірки Webpack
+dist/
+
+# Системні файли та кеш
+.DS_Store
+Thumbs.db
+.cache/
+*.local
+
+# Логи
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Налаштування редакторів коду (наприклад, VS Code)
+.vscode/
+.idea/
