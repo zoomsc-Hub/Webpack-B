@@ -46,6 +46,8 @@ export default {
     new HtmlWebpackPlugin(
       {
         template: "./index.html",
+        filename: "index.html",
+        chunks: ["main", "stat"],
       }
     ),
     new CleanWebpackPlugin(),
